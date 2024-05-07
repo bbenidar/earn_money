@@ -1,0 +1,20 @@
+{
+  "Create Model": {
+    "scope": "dart",
+    "prefix": "model",
+    "body": [
+      "import 'package:equatable/equatable.dart';",
+      "",
+      "class ${1:ComponentName}Model extends Equatable {",
+      "const ${1:ComponentName}Model({",
+      "required this.${2:name},",
+      "});",
+      "final String ${2:name};",
+      "",
+      "@override",
+      "List<Object?> get props => [${2:name}];",
+      "}"
+    ],
+    "description": "Create Model"
+  }
+}

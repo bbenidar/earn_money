@@ -1,0 +1,22 @@
+{
+	"Create RichText": {
+		"scope": "dart",
+		"prefix": "rt",
+		"body": [
+			"RichText(",
+			"textAlign: TextAlign.center,",
+			"text: TextSpan(",
+			"text: '${1:text1}',",
+			"style: h7(context: context),",
+			"children: <TextSpan>[",
+			"TextSpan(",
+			"text: '${2:text2}',",
+			"style: h7(color: dodgerBlue, fontWeight: '600'),",
+			")",
+			"],",
+			"),",
+			")"
+		],
+		"description": "Create RichText"
+	}
+}

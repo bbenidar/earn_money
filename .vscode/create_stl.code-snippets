@@ -1,0 +1,23 @@
+{
+	"Create Stl": {
+		"scope": "dart",
+		"prefix": "stl1",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class ${1:ComponentName} extends StatelessWidget {",
+			"const ${1:ComponentName}({ Key? key",
+			"}) : super(key: key);",
+			"",
+			"@override",
+			"Widget build(BuildContext context) {",
+			"return Scaffold(",
+			"appBar: AppBarCpn(),",
+			"body: Container(),",
+			");",
+			"}",
+			"}",
+		],
+		"description": "Create StatelessWidget has Scaffold"
+	}
+}

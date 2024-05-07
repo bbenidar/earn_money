@@ -1,0 +1,25 @@
+{
+	"Create Stf": {
+		"scope": "dart",
+		"prefix": "stf1",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class ${1:ComponentName} extends StatefulWidget {",
+			"const ${1:ComponentName}({Key? key",
+			"}) : super(key: key);",
+			"",
+			"@override",
+			"State<${1:ComponentName}> createState() => _${1:ComponentName}State();",
+			"}",
+			"",
+			"class _${1:ComponentName}State extends State<${1:ComponentName}> {",
+			"@override",
+			"Widget build(BuildContext context) {",
+			"return Container();",
+			"}",
+			"}",
+		],
+		"description": "Create StateFulWidget no Scaffold"
+	}
+}

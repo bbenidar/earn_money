@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "232019036747",
+    "project_id": "taearn-7d8bc",
+    "storage_bucket": "taearn-7d8bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232019036747:android:7c28e708a944f6c1efdbce",
+        "android_client_info": {
+          "package_name": "dev.ditustudio.taearn_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232019036747-sqhebcm00bleb5v401lrrug5u6sjmv0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkU7xFPzNuleyya1OknhFm3UUpyAZwVUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232019036747-3227c9obadln6gs0dops5hjjtecj91nv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "232019036747-q80l1uakcjidk8qhe8dvg8c7e7la4nqk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.ditustudio.taearn-flutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
